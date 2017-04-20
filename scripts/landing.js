@@ -10,7 +10,7 @@ var animatePoints = function() {
     }
     
  
-    for )var i=0; i < points.length; i++) {
+    for (var i=0; i < points.length; i++) {
      revealPoint(i);
 }
  };
