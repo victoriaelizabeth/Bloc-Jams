@@ -114,10 +114,4 @@ var currentlyPlayingSong = null;
  $(document).ready(function() {
      setCurrentAlbum(albumPicasso);
      
-     for(var i = 0; i < songRows.length; i++) {
-         
-     songRows[i].addEventListener('click', function(event) {
-             clickHandler(event.target);
-        });
-     }
  });
