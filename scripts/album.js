@@ -86,6 +86,7 @@ var createSongRow = function(songNumber, songName, songLength) {
          if (songItemNumber !== currentlyPlayingSongNumber) {
              songItem.html(songItemNumber);
          }
+  
      };
     
      $row.find('.song-item-number').click(clickHandler);
