@@ -147,7 +147,8 @@
 }
 
 .player-bar .volume .seek-bar {
-    widows: 5.75rem;
+    display: inline-block;
+    width: 5.75rem;
     vertical-align: middle;
 }
 

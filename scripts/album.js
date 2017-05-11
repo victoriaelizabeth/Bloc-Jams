@@ -86,7 +86,6 @@ var createSongRow = function(songNumber, songName, songLength) {
          if (songItemNumber !== currentlyPlayingSongNumber) {
              songItem.html(songItemNumber);
          }
-         console.log("songNumber type is " + typeof songNumber + "\n and currentlyPlayingSongNumber type is " + typeof currentlyPlayingSongNumber);
      };
     
      $row.find('.song-item-number').click(clickHandler);
