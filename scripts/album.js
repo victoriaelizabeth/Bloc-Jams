@@ -131,7 +131,7 @@ var createSongRow = function(songNumber, songName, songLength) {
              var $seekBar = $('.seek-control .seek-bar');
  
              updateSeekPercentage($seekBar, seekBarFillRatio);
-             setCurrentTimeInPlayerBar(this.getTime());
+             setCurrentTimeInPlayer(this.getTime());
          });
      }
  };
@@ -292,7 +292,7 @@ var setCurrentTimeInPlayer = function(currentTime) {
 };
 
 var setTotalTimeInPlayerBar = function(totalTime) {
-    $('currently-playing .total-time').text(filterTimeCode(totalTime));
+    $('.total-time').text(filterTimeCode(totalTime));
 };
 
 var filterTimeCode = function(seconds) {
