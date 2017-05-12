@@ -220,6 +220,7 @@ var togglePlayFromPlayerBar = function() {
     }
 };
 
+
 var nextSong = function() {
     
     var getLastSongNumber = function(i) {
